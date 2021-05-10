@@ -1,0 +1,17 @@
+version: 2
+
+registries:
+  pip-github:
+    type: python-index
+    url: https://raw.githubusercontent.com/movadaml/test_dependabot_private_pip/index/index.html
+    username: movadaml
+    password: ttest
+    replaces-base: true
+
+updates:
+  - package-ecosystem: "pip"
+    registries:
+    - pip-github
+    directory: "/"
+    schedule:
+        interval: "daily"
