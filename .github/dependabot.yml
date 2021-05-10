@@ -4,7 +4,7 @@ registries:
     type: python-index
     url: https://raw.githubusercontent.com/movadaml/test_dependabot_private_pip/index/index.html
     username: movadaml
-    password: test
+    password: ${{secrets.MY_GITHUB_PASSWORD}}
     replaces-base: true
 updates:
   - package-ecosystem: "pip"
