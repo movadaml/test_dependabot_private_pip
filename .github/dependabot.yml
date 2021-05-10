@@ -2,7 +2,7 @@ version: 2
 registries:
   pip-github:
     type: python-index
-    url: https://raw.githubusercontent.com/movadaml/test_dependabot_private_pip/index
+    url: https://movandi.github.io/pypi_server/
     replaces-base: true
 updates:
   - package-ecosystem: "pip"
