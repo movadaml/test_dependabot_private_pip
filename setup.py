@@ -10,6 +10,6 @@ setup(name='mypkg',
       url='',
       packages=['mypkg'],
       install_requires=[
-        "movandi-comms==1.0.14",
+        "test_ipython==7.23.0",
         ]
      )
